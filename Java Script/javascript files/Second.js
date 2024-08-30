@@ -1,4 +1,5 @@
-console.log("Second Lecture starts form here");
+{
+    console.log("Second Lecture starts form here");
 console.log("--------------Lecture 2 --------------");
 //arithmetic operator
  {
@@ -86,4 +87,5 @@ let score= prompt("Enter the score you got :");
  }
 
    
+};
 };
