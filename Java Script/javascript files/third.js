@@ -3,19 +3,18 @@
   console.log("----------Lecture 3----------");
  // loops in js
   // example if i have to  print hello wrorld 10 times
-  for(i= 1; i<=10;i++){
-    console.log("Hello wrold ");
-  }
-  factorial
-  let num =5;
-  let fact=0;
-  for(let i = 0; i<=num;i++){
+  // for(i= 1; i<=10;i++){
+  //   console.log("Hello wrold ");
+  // }
+  // let num =5;
+  // let fact=0;
+  // for(let i = 0; i<=num;i++){
     
-    fact = fact +i;
-  }
-  console.log(fact);
+  //   fact = fact +i;
+  // }
+  // console.log(fact);
   //learned a new loop of for-of loop which helps to mak eloop for string type and  arrays
-  example
+ // example
   let name = "Rahul";
   for(let i of name){
     console.log(i) // it checks and print each string value 
