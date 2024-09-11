@@ -51,4 +51,18 @@ document.body.style.color = "black";
     )
     console.log(currMode)
 })
+// mouseover
+let text = document.querySelector(".text");
+// using listners
+text.addEventListener("mouseover" , ()=>{
+    document.querySelector(".text").style.fontSize ="30px";
+    document.querySelector(".text").style.height = "250px"
+    document.querySelector(".text").style.width = "450px"
 
+})
+text.addEventListener("mouseleave" , ()=>{
+    document.querySelector(".text").style.fontSize ="17px";
+    document.querySelector(".text").style.height = "100px"
+    document.querySelector(".text").style.width = "350px"
+
+})
