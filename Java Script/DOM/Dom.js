@@ -59,7 +59,7 @@ console.log(cube.setAttribute("name" , "GetCube"));
  newbtn2.innerText = "Clik me";
  console.log(newbtn2);
  let btn = document.querySelector("#btn");
- btn.append(newbtn); // this  adds button affter everything is displayed
+ btn.append(newbtn); // this  adds button affter everything is displayed 
  btn.prepend(newbtn2);// this adds button before anythis is displayed in that container
  btn.before(newbtn2); // this shows that it shows the button on top of the container
  btn.after(newbtn); // this shows the button on the bottom outside the container 
